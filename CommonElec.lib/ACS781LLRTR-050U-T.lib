@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ACS781LLRTR-050U-T
+#/740154/169668/2.49/7/4/Integrated Circuit
+DEF ACS781LLRTR-050U-T IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "ACS781LLRTR-050U-T" 1050 500 50 H V L CNN
+F2 "ACS781LLRTR050BT" 1050 400 50 H I L CNN
+F3 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS781-Datsaheet.ashx" 1050 300 50 H I L CNN
+F4 "Allegro Microsystems ACS781LLRTR-050U-T, Current Sensor 5 + 2 Tab-Pin, PSOF" 1050 200 50 H I L CNN "Description"
+F5 "1.5" 1050 100 50 H I L CNN "Height"
+F6 "Allegro Microsystems" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "ACS781LLRTR-050U-T" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "ACS781LLRTR-050U-T" 1050 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/acs781llrtr-050u-t/allegro-microsystems" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VCC 1 500 -600 200 U 50 50 0 0 P
+X GND 2 600 -600 200 U 50 50 0 0 P
+X VOUT 3 700 -600 200 U 50 50 0 0 P
+X NC_1 4 1200 0 200 L 50 50 0 0 P
+X IP+ 5 600 600 200 D 50 50 0 0 P
+X IP- 6 500 600 200 D 50 50 0 0 P
+X NC_2 7 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -400 200 -400 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library
